@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input{
+  width:500px;
+  
+}
+.inputandbutton{
+    margin: 0 auto;
+    height: 10vh;
+}
+
+#result{
+    max-width: 500px;
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+  
+}
+.gif-image{
+ width: 200px; 
+ height: 200px;
+ 
+
+}
