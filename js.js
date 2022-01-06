@@ -2,7 +2,7 @@ $("#form").submit(function (e) {
     e.preventDefault();
     $('#result').empty()
     const newInput = $("#search").val();
-    const number = $("#limit").val() || 10;
+    const number = $("#number").val() || 10;
 
     $.get(`https://g.tenor.com/v1/search?q=${newInput}&key=GCFK5W3RG890&limit=${number}`, function (data) {
         showPic(data);
