@@ -2,16 +2,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
 }
+#title{
+text-align: center;
 
+}
 
 .input{
   width:500px;
+  border-radius:10px;
+  padding: 5px;
   
 }
 .inputandbutton{
     margin: 0 auto;
-    height: 10vh;
+    
 }
 
 #result{
@@ -28,4 +34,13 @@ body{
  height: 200px;
  
 
+}
+.button{
+    border-radius:10px; 
+    cursor: pointer; 
+    padding: 5px;
+}
+.button:hover{
+color: white;
+background-color:black ;
 }
